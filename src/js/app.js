@@ -63,7 +63,7 @@ document.addEventListener(
         },
         move: {
           enable: true,
-          speed: 2.5,
+          speed: 2,
           direction: "none",
           random: false,
           straight: false,
