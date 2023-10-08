@@ -4,39 +4,39 @@ document.addEventListener(
     new SweetScroll({}),
       particlesJS("particles-js", {
         particles: {
-          number: { value: 30, density: { enable: !0, value_area: 800 } },
+          number: { value: 100, density: { enable: !0, value_area: 500 } },
           color: { value: "#ffffff" },
           shape: {
-            type: "polygon",
+            type: "circle",
             stroke: { width: 0, color: "#000000" },
             polygon: { nb_sides: 5 },
             image: { src: "img/github.svg", width: 100, height: 100 },
           },
           opacity: {
-            value: 0.5,
-            random: !1,
-            anim: { enable: !1, speed: 1, opacity_min: 0.1, sync: !1 },
+            value: 1,
+            random: !0,
+            anim: { enable: !0, speed: 1, opacity_min: 0, sync: !1 },
           },
           size: {
             value: 3,
             random: !0,
             anim: {
               enable: !1,
-              speed: 19.18081918081918,
-              size_min: 0.1,
+              speed: 10,
+              size_min: 0.3,
               sync: !1,
             },
           },
           line_linked: {
             enable: !0,
-            distance: 150,
+            distance: 200,
             color: "#ffffff",
             opacity: 0.4,
             width: 1,
           },
           move: {
             enable: !0,
-            speed: 4,
+            speed: 2,
             direction: "none",
             random: !0,
             straight: !1,
@@ -49,7 +49,7 @@ document.addEventListener(
         interactivity: {
           detect_on: "canvas",
           events: {
-            onhover: { enable: !1, mode: "grab" },
+            onhover: { enable: !0, mode: "repulse" },
             onclick: { enable: !0, mode: "push" },
             resize: !0,
           },

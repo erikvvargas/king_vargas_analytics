@@ -10,17 +10,17 @@ document.addEventListener(
     particlesJS("particles-js", {
       particles: {
         number: {
-          value: 30,
+          value: 100,
           density: {
             enable: true,
-            value_area: 800,
+            value_area: 500,
           },
         },
         color: {
           value: "#ffffff",
         },
         shape: {
-          type: "polygon",
+          type: "circle",
           stroke: {
             width: 0,
             color: "#000000",
@@ -35,12 +35,12 @@ document.addEventListener(
           },
         },
         opacity: {
-          value: 0.5,
-          random: false,
+          value: 1,
+          random: true,
           anim: {
-            enable: false,
+            enable: true,
             speed: 1,
-            opacity_min: 0.1,
+            opacity_min: 0,
             sync: false,
           },
         },
@@ -49,21 +49,21 @@ document.addEventListener(
           random: true,
           anim: {
             enable: false,
-            speed: 19.18081918081918,
-            size_min: 0.1,
+            speed: 10,
+            size_min: 0.3,
             sync: false,
           },
         },
         line_linked: {
           enable: true,
-          distance: 150,
+          distance: 200,
           color: "#ffffff",
           opacity: 0.4,
           width: 1,
         },
         move: {
           enable: true,
-          speed: 4,
+          speed: 2,
           direction: "none",
           random: true,
           straight: false,
@@ -81,8 +81,8 @@ document.addEventListener(
         detect_on: "canvas",
         events: {
           onhover: {
-            enable: false,
-            mode: "grab",
+            enable: true,
+            mode: "repulse",
           },
           onclick: {
             enable: true,
@@ -105,7 +105,7 @@ document.addEventListener(
             speed: 3,
           },
           repulse: {
-            distance: 200,
+            distance: 100,
             duration: 0.4,
           },
           push: {
