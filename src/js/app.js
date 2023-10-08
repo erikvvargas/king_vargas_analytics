@@ -10,7 +10,7 @@ document.addEventListener(
     particlesJS("particles-js", {
       particles: {
         number: {
-          value: 50,
+          value: 30,
           density: {
             enable: true,
             value_area: 800,
@@ -49,13 +49,13 @@ document.addEventListener(
           random: true,
           anim: {
             enable: false,
-            speed: 10,
+            speed: 19.18081918081918,
             size_min: 0.1,
             sync: false,
           },
         },
         line_linked: {
-          enable: false,
+          enable: true,
           distance: 150,
           color: "#ffffff",
           opacity: 0.4,
@@ -63,7 +63,7 @@ document.addEventListener(
         },
         move: {
           enable: true,
-          speed: 2,
+          speed: 4,
           direction: "none",
           random: true,
           straight: false,
