@@ -55,7 +55,7 @@ document.addEventListener(
           },
         },
         line_linked: {
-          enable: true,
+          enable: false,
           distance: 200,
           color: "#ffffff",
           opacity: 0.4,

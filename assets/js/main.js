@@ -28,7 +28,7 @@ document.addEventListener(
             },
           },
           line_linked: {
-            enable: !0,
+            enable: !1,
             distance: 200,
             color: "#ffffff",
             opacity: 0.4,
