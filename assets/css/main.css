@@ -5855,7 +5855,7 @@ sup {
 }
 .header-icons .icon:active,
 .header-icons .icon:hover {
-  color: #782849;
+  color: #495c68;
   background: #fff;
 }
 @media only screen and (min-width: 550px) {
@@ -5890,7 +5890,7 @@ sup {
 }
 .down .icon:active,
 .down .icon:hover {
-  color: #782849;
+  color: #495c68;
 }
 #about {
   width: 90%;
@@ -5939,7 +5939,7 @@ sup {
 .footer a:hover,
 .icons,
 .user-projects a {
-  color: #782849;
+  color: #495c68;
 }
 #projects {
   display: flex;
@@ -5967,7 +5967,7 @@ body {
   margin: 0;
 }
 .user-projects li {
-  color: #782849;
+  color: #495c68;
   font-size: 1.1rem;
 }
 .user-projects p {
