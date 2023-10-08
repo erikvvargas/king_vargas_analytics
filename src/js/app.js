@@ -10,10 +10,10 @@ document.addEventListener(
     particlesJS("particles-js", {
       particles: {
         number: {
-          value: 100,
+          value: 50,
           density: {
             enable: true,
-            value_area: 500,
+            value_area: 800,
           },
         },
         color: {
@@ -35,12 +35,12 @@ document.addEventListener(
           },
         },
         opacity: {
-          value: 1,
-          random: true,
+          value: 0.4971708610525818,
+          random: false,
           anim: {
-            enable: true,
+            enable: false,
             speed: 1,
-            opacity_min: 0,
+            opacity_min: 0.1,
             sync: false,
           },
         },
@@ -49,23 +49,23 @@ document.addEventListener(
           random: true,
           anim: {
             enable: false,
-            speed: 10,
-            size_min: 0.3,
+            speed: 40,
+            size_min: 0.1,
             sync: false,
           },
         },
         line_linked: {
-          enable: false,
-          distance: 200,
+          enable: true,
+          distance: 120,
           color: "#ffffff",
-          opacity: 0.4,
-          width: 1,
+          opacity: 0.4971708610525818,
+          width: 1.104824135672404,
         },
         move: {
           enable: true,
-          speed: 2,
+          speed: 2.5,
           direction: "none",
-          random: true,
+          random: false,
           straight: false,
           out_mode: "out",
           bounce: false,
@@ -75,7 +75,6 @@ document.addEventListener(
             rotateY: 1200,
           },
         },
-        nb: 80,
       },
       interactivity: {
         detect_on: "canvas",
@@ -99,13 +98,13 @@ document.addEventListener(
           },
           bubble: {
             distance: 400,
-            size: 40,
-            duration: 2,
+            size: 5,
+            duration: 1.9978742617854597,
             opacity: 8,
             speed: 3,
           },
           repulse: {
-            distance: 100,
+            distance: 50,
             duration: 0.4,
           },
           push: {
